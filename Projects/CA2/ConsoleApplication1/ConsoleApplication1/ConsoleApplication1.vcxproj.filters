@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="signup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="create_shop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check_buyer_existence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check_seller_existence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="login.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logout.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deposit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_good.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="check_product_existence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="buy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="show_goods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="view.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="increase_seller_money.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exit_shop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_buyer_to_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_seller_to_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_good_to_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_seller_to_users_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_buyer_to_users_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_previous_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="get_input_text.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_goods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="change_goods_price.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rate_goods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="find_product.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="determine_product_status.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="make_sorted_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="search.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="make_copy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

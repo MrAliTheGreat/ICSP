@@ -1,0 +1,61 @@
+﻿Build started 7/13/2020 3:05:52 PM.
+     1>Project "C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt determine_product_status.c find_product.c get_input_text.c main.c make_copy.c make_sorted_list.c rate_goods.c read_previous_data.c remove_goods.c search.c show_goods.c view.c
+         view.c
+         show_goods.c
+         search.c
+         remove_goods.c
+         read_previous_data.c
+     1>c:\users\rasou\desktop\icsp\projects\ca2\consoleapplication1\consoleapplication1\read_previous_data.c(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\rasou\desktop\icsp\projects\ca2\consoleapplication1\consoleapplication1\read_previous_data.c(71): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         rate_goods.c
+         make_sorted_list.c
+         make_copy.c
+         main.c
+         get_input_text.c
+     1>c:\users\rasou\desktop\icsp\projects\ca2\consoleapplication1\consoleapplication1\get_input_text.c(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         find_product.c
+         determine_product_status.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\add_buyer_to_file.obj
+         Debug\add_buyer_to_users_file.obj
+         Debug\add_good.obj
+         Debug\add_good_to_file.obj
+         Debug\add_seller_to_file.obj
+         Debug\add_seller_to_users_file.obj
+         Debug\buy.obj
+         Debug\change_goods_price.obj
+         Debug\check_buyer_existence.obj
+         Debug\check_product_existence.obj
+         Debug\check_seller_existence.obj
+         Debug\create_shop.obj
+         Debug\deposit.obj
+         Debug\determine_product_status.obj
+         Debug\exit_shop.obj
+         Debug\find_product.obj
+         Debug\get_input.obj
+         Debug\get_input_text.obj
+         Debug\increase_seller_money.obj
+         Debug\login.obj
+         Debug\logout.obj
+         Debug\main.obj
+         Debug\make_copy.obj
+         Debug\make_sorted_list.obj
+         Debug\rate_goods.obj
+         Debug\read_previous_data.obj
+         Debug\remove_goods.obj
+         Debug\search.obj
+         Debug\show_goods.obj
+         Debug\signup.obj
+         Debug\view.obj
+         ConsoleApplication1.vcxproj -> C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\rasou\Desktop\ICSP\Projects\CA2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.31

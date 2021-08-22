@@ -1,0 +1,1 @@
+int is_valid_pos(char board[6][6], int pos);

@@ -1,0 +1,1 @@
+void rotate_subboard(char board[6][6] , int square_num, char rotate_dir);

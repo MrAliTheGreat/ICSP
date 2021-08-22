@@ -1,0 +1,1 @@
+int is_in_board(int x , int y);

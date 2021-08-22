@@ -1,0 +1,15 @@
+.ORIG x3000
+LEA	R0 , #5
+LDR	R2 , R0 , #1
+STR	R2 , R0 , #0
+LDI	R3 , #1
+HALT
+ST	R0 , #8
+STI 	R5 , a
+LDR	R0 , R0 , #12
+ST	R2 , b
+
+HALT
+a .fill #173
+b .fill x16a
+.END
